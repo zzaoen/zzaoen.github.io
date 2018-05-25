@@ -63,7 +63,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="/" style="color:#333">DreamerZz's Blog</a>
+        <a class="navbar-brand" href="/" style="color:#222">DreamerZz's Blog</a>
         <p class="navbar-text">不知道该说点什么</p>
       </div>
 
@@ -933,16 +933,23 @@ This is a test: {{ xxx }}
         <ul class="related-posts">
           
             <li>
-              <a href="/coding4fun/comments-with-isso.html">
-                搭建Isso评论服务
-                <small><time datetime="2017-08-09T18:30:00+08:00">09 Aug 2017</time></small>
+              <a href="/coding4fun/test-f3.html">
+                test file3
+                <small><time datetime="2018-05-22T18:30:00+08:00">22 May 2018</time></small>
               </a>
             </li>
           
             <li>
-              <a href="/coding4fun/multisite-setting.html">
-                利用Apache进行多站点配置
-                <small><time datetime="2017-08-08T16:30:00+08:00">08 Aug 2017</time></small>
+              <a href="/coding4fun/test-f2.html">
+                test file1
+                <small><time datetime="2018-05-22T18:30:00+08:00">22 May 2018</time></small>
+              </a>
+            </li>
+          
+            <li>
+              <a href="/java/test-f1.html">
+                test f1
+                <small><time datetime="2017-08-09T18:30:00+08:00">09 Aug 2017</time></small>
               </a>
             </li>
           
@@ -957,11 +964,11 @@ This is a test: {{ xxx }}
 <script>
 var gitment = new Gitment({
   id: '页面 ID', // 可选。默认为 location.href
-  owner: 'lszero',
-  repo: 'lszero.github.io',
+  owner: 'daydreamerzz',
+  repo: 'daydreamerzz.github.io',
   oauth: {
-    client_id: '5cbd280dd9b27339aee6',
-    client_secret: '18164941d46a714a7577cb7d14e642936ad2ac16',
+    client_id: '8a8c91ffd6294f046777',
+    client_secret: '7771ea6634e73ce7b2f6edf4878ad61cbdc67538',
   },
 })
 gitment.render('container')
@@ -984,7 +991,7 @@ gitment.render('container')
     <footer class="footer">
   <div class="copyright">
       Copyright &copy; 
-      <time datetime="2018-05-25T19:12:30+08:00">2018</time> 
+      <time datetime="2018-05-25T20:50:17+08:00">2018</time> 
       <!-- <a href="http://localhost:4000">DreamerZz</a> | Powered by <a href="https://github.com/jekyll/jekyll">Jekyll</a> and <a href="">lszero</a> -->
       <a href="http://localhost:4000">DreamerZz</a> | Theme from <a href="">lszero</a>
   </div>
@@ -1003,7 +1010,8 @@ gitment.render('container')
 
     <script>$("#search-form").submit(function(event){
       var query = document.getElementById("search-input").value;
-      window.open("http://google.com/search?q=" + query + "%20site:" + "lszero.github.io");
+      window.open("http://www.baidu.com/s?tn=baidu&wd=" + query);
+      // window.open("http://google.com/search?q=" + query + "%20site:" + "daydreamerzz.github.io");
     });</script>
   </body>
 </html>

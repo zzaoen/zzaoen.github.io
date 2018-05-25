@@ -19,7 +19,7 @@ email: zhzh402@163.com
 description: > # this means to ignore newlines until "baseurl:"
   分布式兴趣广泛
 url: # the base hostname & protocol for your site, e.g. http://example.com
-sitesearchurl: lszero.github.io
+sitesearchurl: daydreamerzz.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
 
 # Markdown Processors
@@ -37,11 +37,11 @@ excerpt_separator: <!-- more -->
 permalink: /:categories/:title.html
 
 social_media:
-  github_url: https://github.com/lszero
+  github_url: https://github.com/daydreamerzz
   weibo_url: http://weibo.com/u/2313016370
   zhihu_url: https://www.zhihu.com/people/lszero
-  twitter_url: https://twitter.com/_lszero
-  lofter_url: http://intzero.lofter.com/
+  # twitter_url: https://twitter.com/_lszero
+  # lofter_url: http://intzero.lofter.com/
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
