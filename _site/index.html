@@ -84,6 +84,9 @@
             <a href="/archives.html">Archives</a>
           </li>
           <li>
+            <a href="/grocery.html">Funny</a>
+          </li>
+          <li>
             <a href="/categories.html">Categories</a>
           </li>
           <li>
@@ -102,6 +105,34 @@
     <div class="container">
   <div class="row-fluid main">
     <div class="col-md-9 content main-posts-preview">
+      
+      <article class="post-preview">
+        <h1 class="post-title">
+          <a href="/funny/funny.html">test file3</a>
+        </h1>
+
+        <div class="post-info">
+          <span class="post-date">22 May 2018</span>
+           | 
+            <span class="fa fa-folder-open" aria-hidden="true">
+            
+              <a class="post-categories" href="/categories.html#Funny">Funny</a>
+            
+            </span>
+          
+          
+        </div>
+
+        <div class="post-excerpt">
+          <p>这里是funny的</p>
+
+        </div>
+
+        <div class="post-readmore">
+          <a class="read-more" href="/funny/funny.html">Read More</a>
+        </div>
+      </article>
+      <hr />
       
       <article class="post-preview">
         <h1 class="post-title">
@@ -255,57 +286,6 @@ $ sudo pip install misaka
       </article>
       <hr />
       
-      <article class="post-preview">
-        <h1 class="post-title">
-          <a href="/coding4fun/multisite-setting.html">利用Apache进行多站点配置</a>
-        </h1>
-
-        <div class="post-info">
-          <span class="post-date">08 Aug 2017</span>
-           | 
-            <span class="fa fa-folder-open" aria-hidden="true">
-            
-              <a class="post-categories" href="/categories.html#coding4fun">coding4fun</a>
-            
-            </span>
-          
-           | 
-            <span class="fa fa-tag" aria-hidden="true">
-            
-              <a class="post-tags" href="/tags.html#jekyll">jekyll</a>
-            
-              <a class="post-tags" href="/tags.html#blog">blog</a>
-            
-              <a class="post-tags" href="/tags.html#multisites">multisites</a>
-            
-            </span>
-          
-        </div>
-
-        <div class="post-excerpt">
-          <p>用了静态网页之后，主机就空闲了，当初辛辛苦苦跟工信部折腾了好几个月连案都备好了。。总感觉特别亏（其实就是舍不得wordpress的搜索功能。。）转念一想，拿wp当图片上传服务也是不错啊，这样就省去找第三方图床了。</p>
-
-<p>我的目标：</p>
-
-<ul>
-  <li>www.lszero.com 显示主页面。</li>
-  <li>blog.lszero.com 对应静态site。</li>
-  <li>wp.lszero.com 对应wordpress。</li>
-</ul>
-
-<p>我这里用的是apache来实现的，也可以用nginx。</p>
-
-<p>因为我的测试平台是Ubuntu，故跟网上的配置文件有些不一样。如网上说的apache配置文件<code class="highlighter-rouge">http.conf</code>，在我的平台下是<code class="highlighter-rouge">/etc/apache2/apache2.conf</code>。</p>
-
-
-        </div>
-
-        <div class="post-readmore">
-          <a class="read-more" href="/coding4fun/multisite-setting.html">Read More</a>
-        </div>
-      </article>
-      <hr />
-      
 
       
       <nav aria-label="Page navigation">
@@ -351,13 +331,13 @@ $ sudo pip install misaka
   <nav class="site-state">
     <div class="site-state-item">
       <a href="/archives.html">
-        <span class="site-state-item-count">6</span>
+        <span class="site-state-item-count">7</span>
         <span>Posts</span>
       </a>
     </div>
     <div class="site-state-item">
       <a href="/categories.html">
-        <span class="site-state-item-count">2</span>
+        <span class="site-state-item-count">3</span>
         <span>Categories</span>
       </a>
     </div>
@@ -373,7 +353,7 @@ $ sudo pip install misaka
     <a href="https://github.com/daydreamerzz" class="btn" title="Github" target="_blank"><i class="fa fa-fw fa-github fa-2x" aria-hidden="true"></i></a>
     <a href="http://weibo.com/u/2313016370" class="btn" title="Weibo" target="_blank"><i class="fa fa-fw fa-weibo fa-2x" aria-hidden="true"></i></a>
     <a href="https://www.zhihu.com/people/lszero" class="btn" title="Zhihu" target="_blank"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-stack-1x fa-inverse"><strong>知</strong></i></span></a>
-    <!-- <a href="https://twitter.com/_lszero" class="btn" title="Twitter" target="_blank"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a> -->
+    <!-- <a href="" class="btn" title="Twitter" target="_blank"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a> -->
     <!-- <a href="" class="btn" title="Lofter" target="_blank"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-stack-1x fa-inverse"><strong>L</strong></i></span></a> -->
   </div>
 
@@ -390,6 +370,11 @@ $ sudo pip install misaka
     
       <li class="list-group-item">
         <a href="/categories.html#java">java</a>
+        <span class="badge">1</span>
+      </li>
+    
+      <li class="list-group-item">
+        <a href="/categories.html#Funny">Funny</a>
         <span class="badge">1</span>
       </li>
     
@@ -454,7 +439,7 @@ $ sudo pip install misaka
     <footer class="footer">
   <div class="copyright">
       Copyright &copy; 
-      <time datetime="2018-05-25T20:50:17+08:00">2018</time> 
+      <time datetime="2018-05-31T21:09:18+08:00">2018</time> 
       <!-- <a href="http://localhost:4000">DreamerZz</a> | Powered by <a href="https://github.com/jekyll/jekyll">Jekyll</a> and <a href="">lszero</a> -->
       <a href="http://localhost:4000">DreamerZz</a> | Theme from <a href="">lszero</a>
   </div>
