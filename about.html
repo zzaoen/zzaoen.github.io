@@ -1,27 +1,51 @@
 ---
-layout: default
-title: About me
+layout: page
+title: "About"
+description: "你是我的梦想"
+header-img: "img/about-bg.jpg"
+multilingual: true
 ---
 
-<div class="container">
-  <div class="row-fluid main">
-    <div class="content posts col-md-9">
-      <h1>About me</h1>
-      <hr>
-      外貌协会会长，颜控，手控，声控，长腿控ヾ(o◕∀◕)ﾉヾ <br>
-      目前在做造轮子工作，以卖代码为生 (￣.￣) <br>
-      兴趣爱好广泛，然而均不精通。 <br>
-      人生终将毁于电子产品。 <br><br>
+<!-- Language Selector -->
+<select class="sel-lang" onchange= "onLanChange(this.options[this.options.selectedIndex].value)">
+    <option value="0" selected> 中文 Chinese </option>
+    <option value="1"> 英文 English </option>
+</select>
 
-      Email: zhzh402@163.com <br><br>
-
-      所使用的主题：<a href="https://github.com/lszero/zero-theme" target="_blank">zero-theme</a>
-      <br><br>
-      {% include {{ site.baseurl }}comments.html %}
-    </div>
-
-    <div class="col-md-3 main-sidebar">
-      {% include {{ site.baseurl }}sidebar_main.html %}
-    </div>
-  </div>
+<!-- Chinese Version -->
+<div class="zh post-container">
+    {% capture about_zh %}{% include about/zh.md %}{% endcapture %}
+    {{ about_zh | markdownify }}
 </div>
+
+<!-- English Version -->
+<div class="en post-container">
+    {% capture about_en %}{% include about/en.md %}{% endcapture %}
+    {{ about_en | markdownify }}
+</div>
+
+
+{% if site.disqus_username %}
+<!-- disqus 评论框 start -->
+<div class="comment">
+    <div id="disqus_thread" class="disqus-thread">
+
+    </div>
+</div>
+<!-- disqus 评论框 end -->
+
+<!-- disqus 公共JS代码 start (一个网页只需插入一次) -->
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = "{{site.disqus_username}}";
+    var disqus_identifier = "{{site.disqus_username}}/{{page.url}}";
+    var disqus_url = "{{site.url}}{{page.url}}";
+
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<!-- disqus 公共JS代码 end -->
+{% endif %}
