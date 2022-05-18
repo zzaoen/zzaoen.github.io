@@ -1,5 +1,6 @@
 ---
 icon: info
+sidebar: false
 ---
 
 # Intro Page

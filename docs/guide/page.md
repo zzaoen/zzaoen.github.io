@@ -6,7 +6,7 @@ icon: page
 # This is the title of the article
 title: page config
 # Set author
-author: Ms.Hope
+# author: Aoen
 # Set writing time
 date: 2020-01-01
 # A page can have multiple categories
@@ -21,7 +21,7 @@ sticky: true
 # this page will appear in aricle channel in home page
 star: true
 # You can customize the footer
-footer: Footer content for test
+footer: customize footer content for test
 ---
 
 Content before `more` comment is regarded as page excerpt.

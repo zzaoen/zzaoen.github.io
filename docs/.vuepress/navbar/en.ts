@@ -1,11 +1,13 @@
 import { navbar } from "vuepress-theme-hope";
 
+// top tabs like Blog Home, Posts 
 export const en = navbar([
   "/",
-  "/home",
+  // "/home",
+  { text: "Collection", icon: "slides", link: "/collection/" },
   { text: "Guide", icon: "creative", link: "/guide/" },
   {
-    text: "Posts",
+    text: "Selected",
     icon: "edit",
     prefix: "/posts/",
     children: [
@@ -44,9 +46,9 @@ export const en = navbar([
       "article12",
     ],
   },
-  {
-    text: "Theme Docs",
-    icon: "note",
-    link: "https://vuepress-theme-hope.github.io/v2/",
-  },
+  // {
+  //   text: "Theme Docs",
+  //   icon: "note",
+  //   link: "https://vuepress-theme-hope.github.io/v2/",
+  // },
 ]);

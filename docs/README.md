@@ -1,12 +1,12 @@
 ---
 home: true
 layout: Blog
-icon: home
-title: Blog Home
-heroImage: /logo.svg
-heroText: the name of your blog
+# icon: home
+title: Aoen
+# heroImage: /logo.svg
+heroText: Disk is always more reliable than memory
 tagline: You can put your slogan here
-heroFullScreen: true
+heroFullScreen: false
 projects:
   - icon: project
     name: project name
@@ -14,19 +14,19 @@ projects:
     link: https://your.project.link
 
   - icon: link
-    name: link name
+    name: timeline
     desc: link detailed description
-    link: https://link.address
+    link: /timeline
+  
+  - icon: article
+    name: category
+    desc: Detailed description of the article
+    link: /category
 
   - icon: book
-    name: book name
+    name: books
     desc: Detailed description of the book
     link: https://link.to.your.book
-
-  - icon: article
-    name: article name
-    desc: Detailed description of the article
-    link: https://link.to.your.article
 
   - icon: friend
     name: friend name
@@ -38,11 +38,12 @@ projects:
     desc: Detailed description of this custom item
     link: https://link.to.your.friend
 
-footer: customize your footer text
+# footer: customize your footer text
+footer: no footer right now
 ---
 
-This is a blog home page.
+<!-- This is a blog home page.
 
 To use this layout, you should set both `layout: Blog` and `home: true` in the page front matter.
 
-For related configuration docs, please see [blog homepage](https://vuepress-theme-hope.github.io/v2/guide/blog/home/).
+For related configuration docs, please see [blog homepage](https://vuepress-theme-hope.github.io/v2/guide/blog/home/). -->
