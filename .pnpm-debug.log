@@ -1,0 +1,2427 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 debug pnpm:package-manifest": {
+    "initial": {},
+    "prefix": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629"
+  },
+  "2 debug pnpm:context": {
+    "currentLockfileExists": false,
+    "storeDir": "/Users/brucezhao/Library/pnpm/store/v3",
+    "virtualStoreDir": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm"
+  },
+  "3 debug pnpm:stage": {
+    "prefix": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "stage": "resolution_started"
+  },
+  "4 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/create-vuepress-theme-hope/2.0.0-beta.61",
+    "wanted": {
+      "dependentId": ".",
+      "name": "create-vuepress-theme-hope",
+      "rawSpec": "next"
+    }
+  },
+  "5 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/create-vuepress-theme-hope/2.0.0-beta.61",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "resolved"
+  },
+  "6 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/create-vuepress-theme-hope/2.0.0-beta.61",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "found_in_store"
+  },
+  "7 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/cac/6.7.12",
+    "wanted": {
+      "dependentId": "/create-vuepress-theme-hope/2.0.0-beta.61",
+      "name": "cac",
+      "rawSpec": "^6.7.12"
+    }
+  },
+  "8 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/cac/6.7.12",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "resolved"
+  },
+  "9 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/cac/6.7.12",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "found_in_store"
+  },
+  "10 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/execa/5.1.1",
+    "wanted": {
+      "dependentId": "/create-vuepress-theme-hope/2.0.0-beta.61",
+      "name": "execa",
+      "rawSpec": "^5.1.1"
+    }
+  },
+  "11 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/execa/5.1.1",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "resolved"
+  },
+  "12 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/inquirer/8.2.4",
+    "wanted": {
+      "dependentId": "/create-vuepress-theme-hope/2.0.0-beta.61",
+      "name": "inquirer",
+      "rawSpec": "^8.2.4"
+    }
+  },
+  "13 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/inquirer/8.2.4",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "resolved"
+  },
+  "14 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/execa/5.1.1",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "found_in_store"
+  },
+  "15 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/inquirer/8.2.4",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "found_in_store"
+  },
+  "16 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/human-signals/2.1.0",
+    "wanted": {
+      "dependentId": "/execa/5.1.1",
+      "name": "human-signals",
+      "rawSpec": "^2.1.0"
+    }
+  },
+  "17 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/human-signals/2.1.0",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "resolved"
+  },
+  "18 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/get-stream/6.0.1",
+    "wanted": {
+      "dependentId": "/execa/5.1.1",
+      "name": "get-stream",
+      "rawSpec": "^6.0.0"
+    }
+  },
+  "19 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/get-stream/6.0.1",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "resolved"
+  },
+  "20 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/cross-spawn/7.0.3",
+    "wanted": {
+      "dependentId": "/execa/5.1.1",
+      "name": "cross-spawn",
+      "rawSpec": "^7.0.3"
+    }
+  },
+  "21 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/cross-spawn/7.0.3",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "resolved"
+  },
+  "22 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/mute-stream/0.0.8",
+    "wanted": {
+      "dependentId": "/inquirer/8.2.4",
+      "name": "mute-stream",
+      "rawSpec": "0.0.8"
+    }
+  },
+  "23 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/mute-stream/0.0.8",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "resolved"
+  },
+  "24 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/human-signals/2.1.0",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "found_in_store"
+  },
+  "25 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/get-stream/6.0.1",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "found_in_store"
+  },
+  "26 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/cross-spawn/7.0.3",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "found_in_store"
+  },
+  "27 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/mute-stream/0.0.8",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "found_in_store"
+  },
+  "28 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/run-async/2.4.1",
+    "wanted": {
+      "dependentId": "/inquirer/8.2.4",
+      "name": "run-async",
+      "rawSpec": "^2.4.0"
+    }
+  },
+  "29 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/run-async/2.4.1",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "resolved"
+  },
+  "30 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/ora/5.4.1",
+    "wanted": {
+      "dependentId": "/inquirer/8.2.4",
+      "name": "ora",
+      "rawSpec": "^5.4.1"
+    }
+  },
+  "31 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/ora/5.4.1",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "resolved"
+  },
+  "32 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/run-async/2.4.1",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "found_in_store"
+  },
+  "33 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/ora/5.4.1",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "found_in_store"
+  },
+  "34 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/onetime/5.1.2",
+    "wanted": {
+      "dependentId": "/execa/5.1.1",
+      "name": "onetime",
+      "rawSpec": "^5.1.2"
+    }
+  },
+  "35 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/onetime/5.1.2",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "resolved"
+  },
+  "36 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/is-stream/2.0.1",
+    "wanted": {
+      "dependentId": "/execa/5.1.1",
+      "name": "is-stream",
+      "rawSpec": "^2.0.0"
+    }
+  },
+  "37 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/is-stream/2.0.1",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "resolved"
+  },
+  "38 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/signal-exit/3.0.7",
+    "wanted": {
+      "dependentId": "/execa/5.1.1",
+      "name": "signal-exit",
+      "rawSpec": "^3.0.3"
+    }
+  },
+  "39 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/signal-exit/3.0.7",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "resolved"
+  },
+  "40 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/npm-run-path/4.0.1",
+    "wanted": {
+      "dependentId": "/execa/5.1.1",
+      "name": "npm-run-path",
+      "rawSpec": "^4.0.1"
+    }
+  },
+  "41 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/npm-run-path/4.0.1",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "resolved"
+  },
+  "42 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/chalk/4.1.2",
+    "wanted": {
+      "dependentId": "/inquirer/8.2.4",
+      "name": "chalk",
+      "rawSpec": "^4.1.1"
+    }
+  },
+  "43 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/chalk/4.1.2",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "resolved"
+  },
+  "44 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/figures/3.2.0",
+    "wanted": {
+      "dependentId": "/inquirer/8.2.4",
+      "name": "figures",
+      "rawSpec": "^3.0.0"
+    }
+  },
+  "45 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/figures/3.2.0",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "resolved"
+  },
+  "46 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/merge-stream/2.0.0",
+    "wanted": {
+      "dependentId": "/execa/5.1.1",
+      "name": "merge-stream",
+      "rawSpec": "^2.0.0"
+    }
+  },
+  "47 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/merge-stream/2.0.0",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "resolved"
+  },
+  "48 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/lodash/4.17.21",
+    "wanted": {
+      "dependentId": "/inquirer/8.2.4",
+      "name": "lodash",
+      "rawSpec": "^4.17.21"
+    }
+  },
+  "49 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/lodash/4.17.21",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "resolved"
+  },
+  "50 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/cli-width/3.0.0",
+    "wanted": {
+      "dependentId": "/inquirer/8.2.4",
+      "name": "cli-width",
+      "rawSpec": "^3.0.0"
+    }
+  },
+  "51 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/cli-width/3.0.0",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "resolved"
+  },
+  "52 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/external-editor/3.1.0",
+    "wanted": {
+      "dependentId": "/inquirer/8.2.4",
+      "name": "external-editor",
+      "rawSpec": "^3.0.3"
+    }
+  },
+  "53 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/external-editor/3.1.0",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "resolved"
+  },
+  "54 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/ansi-escapes/4.3.2",
+    "wanted": {
+      "dependentId": "/inquirer/8.2.4",
+      "name": "ansi-escapes",
+      "rawSpec": "^4.2.1"
+    }
+  },
+  "55 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/ansi-escapes/4.3.2",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "resolved"
+  },
+  "56 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/string-width/4.2.3",
+    "wanted": {
+      "dependentId": "/inquirer/8.2.4",
+      "name": "string-width",
+      "rawSpec": "^4.1.0"
+    }
+  },
+  "57 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/string-width/4.2.3",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "resolved"
+  },
+  "58 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/rxjs/7.5.5",
+    "wanted": {
+      "dependentId": "/inquirer/8.2.4",
+      "name": "rxjs",
+      "rawSpec": "^7.5.5"
+    }
+  },
+  "59 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/rxjs/7.5.5",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "resolved"
+  },
+  "60 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/strip-ansi/6.0.1",
+    "wanted": {
+      "dependentId": "/inquirer/8.2.4",
+      "name": "strip-ansi",
+      "rawSpec": "^6.0.0"
+    }
+  },
+  "61 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/strip-ansi/6.0.1",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "resolved"
+  },
+  "62 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/onetime/5.1.2",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "found_in_store"
+  },
+  "63 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/is-stream/2.0.1",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "found_in_store"
+  },
+  "64 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/signal-exit/3.0.7",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "found_in_store"
+  },
+  "65 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/chalk/4.1.2",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "found_in_store"
+  },
+  "66 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/external-editor/3.1.0",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "found_in_store"
+  },
+  "67 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/merge-stream/2.0.0",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "found_in_store"
+  },
+  "68 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/figures/3.2.0",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "found_in_store"
+  },
+  "69 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/cli-width/3.0.0",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "found_in_store"
+  },
+  "70 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/npm-run-path/4.0.1",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "found_in_store"
+  },
+  "71 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/ansi-escapes/4.3.2",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "found_in_store"
+  },
+  "72 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/lodash/4.17.21",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "found_in_store"
+  },
+  "73 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/string-width/4.2.3",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "found_in_store"
+  },
+  "74 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/through/2.3.8",
+    "wanted": {
+      "dependentId": "/inquirer/8.2.4",
+      "name": "through",
+      "rawSpec": "^2.3.6"
+    }
+  },
+  "75 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/through/2.3.8",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "resolved"
+  },
+  "76 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/cli-cursor/3.1.0",
+    "wanted": {
+      "dependentId": "/inquirer/8.2.4",
+      "name": "cli-cursor",
+      "rawSpec": "^3.1.0"
+    }
+  },
+  "77 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/cli-cursor/3.1.0",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "resolved"
+  },
+  "78 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/strip-final-newline/2.0.0",
+    "wanted": {
+      "dependentId": "/execa/5.1.1",
+      "name": "strip-final-newline",
+      "rawSpec": "^2.0.0"
+    }
+  },
+  "79 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/strip-final-newline/2.0.0",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "resolved"
+  },
+  "80 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/wrap-ansi/7.0.0",
+    "wanted": {
+      "dependentId": "/inquirer/8.2.4",
+      "name": "wrap-ansi",
+      "rawSpec": "^7.0.0"
+    }
+  },
+  "81 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/wrap-ansi/7.0.0",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "resolved"
+  },
+  "82 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/chalk/4.1.2",
+    "wanted": {
+      "dependentId": "/ora/5.4.1",
+      "name": "chalk",
+      "rawSpec": "^4.1.0"
+    }
+  },
+  "83 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/cli-cursor/3.1.0",
+    "wanted": {
+      "dependentId": "/ora/5.4.1",
+      "name": "cli-cursor",
+      "rawSpec": "^3.1.0"
+    }
+  },
+  "84 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/strip-ansi/6.0.1",
+    "wanted": {
+      "dependentId": "/ora/5.4.1",
+      "name": "strip-ansi",
+      "rawSpec": "^6.0.0"
+    }
+  },
+  "85 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/rxjs/7.5.5",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "found_in_store"
+  },
+  "86 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/strip-ansi/6.0.1",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "found_in_store"
+  },
+  "87 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/cli-cursor/3.1.0",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "found_in_store"
+  },
+  "88 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/through/2.3.8",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "found_in_store"
+  },
+  "89 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/strip-final-newline/2.0.0",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "found_in_store"
+  },
+  "90 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/wrap-ansi/7.0.0",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "found_in_store"
+  },
+  "91 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/which/2.0.2",
+    "wanted": {
+      "dependentId": "/cross-spawn/7.0.3",
+      "name": "which",
+      "rawSpec": "^2.0.1"
+    }
+  },
+  "92 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/which/2.0.2",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "resolved"
+  },
+  "93 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/shebang-command/2.0.0",
+    "wanted": {
+      "dependentId": "/cross-spawn/7.0.3",
+      "name": "shebang-command",
+      "rawSpec": "^2.0.0"
+    }
+  },
+  "94 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/shebang-command/2.0.0",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "resolved"
+  },
+  "95 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/log-symbols/4.1.0",
+    "wanted": {
+      "dependentId": "/ora/5.4.1",
+      "name": "log-symbols",
+      "rawSpec": "^4.1.0"
+    }
+  },
+  "96 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/log-symbols/4.1.0",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "resolved"
+  },
+  "97 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/escape-string-regexp/1.0.5",
+    "wanted": {
+      "dependentId": "/figures/3.2.0",
+      "name": "escape-string-regexp",
+      "rawSpec": "^1.0.5"
+    }
+  },
+  "98 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/escape-string-regexp/1.0.5",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "resolved"
+  },
+  "99 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/is-interactive/1.0.0",
+    "wanted": {
+      "dependentId": "/ora/5.4.1",
+      "name": "is-interactive",
+      "rawSpec": "^1.0.0"
+    }
+  },
+  "100 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/is-interactive/1.0.0",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "resolved"
+  },
+  "101 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/strip-ansi/6.0.1",
+    "wanted": {
+      "dependentId": "/string-width/4.2.3",
+      "name": "strip-ansi",
+      "rawSpec": "^6.0.1"
+    }
+  },
+  "102 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/supports-color/7.2.0",
+    "wanted": {
+      "dependentId": "/chalk/4.1.2",
+      "name": "supports-color",
+      "rawSpec": "^7.1.0"
+    }
+  },
+  "103 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/supports-color/7.2.0",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "resolved"
+  },
+  "104 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/is-unicode-supported/0.1.0",
+    "wanted": {
+      "dependentId": "/ora/5.4.1",
+      "name": "is-unicode-supported",
+      "rawSpec": "^0.1.0"
+    }
+  },
+  "105 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/is-unicode-supported/0.1.0",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "resolved"
+  },
+  "106 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/path-key/3.1.1",
+    "wanted": {
+      "dependentId": "/cross-spawn/7.0.3",
+      "name": "path-key",
+      "rawSpec": "^3.1.0"
+    }
+  },
+  "107 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/path-key/3.1.1",
+    "wanted": {
+      "dependentId": "/npm-run-path/4.0.1",
+      "name": "path-key",
+      "rawSpec": "^3.0.0"
+    }
+  },
+  "108 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/path-key/3.1.1",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "resolved"
+  },
+  "109 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/string-width/4.2.3",
+    "wanted": {
+      "dependentId": "/wrap-ansi/7.0.0",
+      "name": "string-width",
+      "rawSpec": "^4.1.0"
+    }
+  },
+  "110 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/strip-ansi/6.0.1",
+    "wanted": {
+      "dependentId": "/wrap-ansi/7.0.0",
+      "name": "strip-ansi",
+      "rawSpec": "^6.0.0"
+    }
+  },
+  "111 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/mimic-fn/2.1.0",
+    "wanted": {
+      "dependentId": "/onetime/5.1.2",
+      "name": "mimic-fn",
+      "rawSpec": "^2.1.0"
+    }
+  },
+  "112 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/mimic-fn/2.1.0",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "resolved"
+  },
+  "113 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/wcwidth/1.0.1",
+    "wanted": {
+      "dependentId": "/ora/5.4.1",
+      "name": "wcwidth",
+      "rawSpec": "^1.0.1"
+    }
+  },
+  "114 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/wcwidth/1.0.1",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "resolved"
+  },
+  "115 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/chardet/0.7.0",
+    "wanted": {
+      "dependentId": "/external-editor/3.1.0",
+      "name": "chardet",
+      "rawSpec": "^0.7.0"
+    }
+  },
+  "116 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/chardet/0.7.0",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "resolved"
+  },
+  "117 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/ansi-styles/4.3.0",
+    "wanted": {
+      "dependentId": "/chalk/4.1.2",
+      "name": "ansi-styles",
+      "rawSpec": "^4.1.0"
+    }
+  },
+  "118 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/ansi-styles/4.3.0",
+    "wanted": {
+      "dependentId": "/wrap-ansi/7.0.0",
+      "name": "ansi-styles",
+      "rawSpec": "^4.0.0"
+    }
+  },
+  "119 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/ansi-styles/4.3.0",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "resolved"
+  },
+  "120 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/iconv-lite/0.4.24",
+    "wanted": {
+      "dependentId": "/external-editor/3.1.0",
+      "name": "iconv-lite",
+      "rawSpec": "^0.4.24"
+    }
+  },
+  "121 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/iconv-lite/0.4.24",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "resolved"
+  },
+  "122 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/bl/4.1.0",
+    "wanted": {
+      "dependentId": "/ora/5.4.1",
+      "name": "bl",
+      "rawSpec": "^4.1.0"
+    }
+  },
+  "123 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/bl/4.1.0",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "resolved"
+  },
+  "124 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/shebang-command/2.0.0",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "found_in_store"
+  },
+  "125 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/which/2.0.2",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "found_in_store"
+  },
+  "126 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/log-symbols/4.1.0",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "found_in_store"
+  },
+  "127 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/is-interactive/1.0.0",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "found_in_store"
+  },
+  "128 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/escape-string-regexp/1.0.5",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "found_in_store"
+  },
+  "129 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/path-key/3.1.1",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "found_in_store"
+  },
+  "130 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/supports-color/7.2.0",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "found_in_store"
+  },
+  "131 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/is-unicode-supported/0.1.0",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "found_in_store"
+  },
+  "132 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/mimic-fn/2.1.0",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "found_in_store"
+  },
+  "133 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/ansi-styles/4.3.0",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "found_in_store"
+  },
+  "134 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/wcwidth/1.0.1",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "found_in_store"
+  },
+  "135 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/chardet/0.7.0",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "found_in_store"
+  },
+  "136 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/iconv-lite/0.4.24",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "found_in_store"
+  },
+  "137 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/bl/4.1.0",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "found_in_store"
+  },
+  "138 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/tmp/0.0.33",
+    "wanted": {
+      "dependentId": "/external-editor/3.1.0",
+      "name": "tmp",
+      "rawSpec": "^0.0.33"
+    }
+  },
+  "139 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/tmp/0.0.33",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "resolved"
+  },
+  "140 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/tmp/0.0.33",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "found_in_store"
+  },
+  "141 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/is-fullwidth-code-point/3.0.0",
+    "wanted": {
+      "dependentId": "/string-width/4.2.3",
+      "name": "is-fullwidth-code-point",
+      "rawSpec": "^3.0.0"
+    }
+  },
+  "142 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/is-fullwidth-code-point/3.0.0",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "resolved"
+  },
+  "143 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/emoji-regex/8.0.0",
+    "wanted": {
+      "dependentId": "/string-width/4.2.3",
+      "name": "emoji-regex",
+      "rawSpec": "^8.0.0"
+    }
+  },
+  "144 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/emoji-regex/8.0.0",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "resolved"
+  },
+  "145 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/restore-cursor/3.1.0",
+    "wanted": {
+      "dependentId": "/cli-cursor/3.1.0",
+      "name": "restore-cursor",
+      "rawSpec": "^3.1.0"
+    }
+  },
+  "146 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/restore-cursor/3.1.0",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "resolved"
+  },
+  "147 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/onetime/5.1.2",
+    "wanted": {
+      "dependentId": "/restore-cursor/3.1.0",
+      "name": "onetime",
+      "rawSpec": "^5.1.0"
+    }
+  },
+  "148 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/signal-exit/3.0.7",
+    "wanted": {
+      "dependentId": "/restore-cursor/3.1.0",
+      "name": "signal-exit",
+      "rawSpec": "^3.0.2"
+    }
+  },
+  "149 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/shebang-regex/3.0.0",
+    "wanted": {
+      "dependentId": "/shebang-command/2.0.0",
+      "name": "shebang-regex",
+      "rawSpec": "^3.0.0"
+    }
+  },
+  "150 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/shebang-regex/3.0.0",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "resolved"
+  },
+  "151 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/type-fest/0.21.3",
+    "wanted": {
+      "dependentId": "/ansi-escapes/4.3.2",
+      "name": "type-fest",
+      "rawSpec": "^0.21.3"
+    }
+  },
+  "152 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/type-fest/0.21.3",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "resolved"
+  },
+  "153 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/ansi-regex/5.0.1",
+    "wanted": {
+      "dependentId": "/strip-ansi/6.0.1",
+      "name": "ansi-regex",
+      "rawSpec": "^5.0.1"
+    }
+  },
+  "154 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/ansi-regex/5.0.1",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "resolved"
+  },
+  "155 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/tslib/2.4.0",
+    "wanted": {
+      "dependentId": "/rxjs/7.5.5",
+      "name": "tslib",
+      "rawSpec": "^2.1.0"
+    }
+  },
+  "156 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/tslib/2.4.0",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "resolved"
+  },
+  "157 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/color-convert/2.0.1",
+    "wanted": {
+      "dependentId": "/ansi-styles/4.3.0",
+      "name": "color-convert",
+      "rawSpec": "^2.0.1"
+    }
+  },
+  "158 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/color-convert/2.0.1",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "resolved"
+  },
+  "159 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/cli-spinners/2.6.1",
+    "wanted": {
+      "dependentId": "/ora/5.4.1",
+      "name": "cli-spinners",
+      "rawSpec": "^2.5.0"
+    }
+  },
+  "160 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/cli-spinners/2.6.1",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "resolved"
+  },
+  "161 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/chalk/4.1.2",
+    "wanted": {
+      "dependentId": "/log-symbols/4.1.0",
+      "name": "chalk",
+      "rawSpec": "^4.1.0"
+    }
+  },
+  "162 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/is-unicode-supported/0.1.0",
+    "wanted": {
+      "dependentId": "/log-symbols/4.1.0",
+      "name": "is-unicode-supported",
+      "rawSpec": "^0.1.0"
+    }
+  },
+  "163 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/has-flag/4.0.0",
+    "wanted": {
+      "dependentId": "/supports-color/7.2.0",
+      "name": "has-flag",
+      "rawSpec": "^4.0.0"
+    }
+  },
+  "164 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/has-flag/4.0.0",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "resolved"
+  },
+  "165 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/is-fullwidth-code-point/3.0.0",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "found_in_store"
+  },
+  "166 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/emoji-regex/8.0.0",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "found_in_store"
+  },
+  "167 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/shebang-regex/3.0.0",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "found_in_store"
+  },
+  "168 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/restore-cursor/3.1.0",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "found_in_store"
+  },
+  "169 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/tslib/2.4.0",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "found_in_store"
+  },
+  "170 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/color-convert/2.0.1",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "found_in_store"
+  },
+  "171 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/ansi-regex/5.0.1",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "found_in_store"
+  },
+  "172 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/type-fest/0.21.3",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "found_in_store"
+  },
+  "173 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/has-flag/4.0.0",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "found_in_store"
+  },
+  "174 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/cli-spinners/2.6.1",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "found_in_store"
+  },
+  "175 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/safer-buffer/2.1.2",
+    "wanted": {
+      "dependentId": "/iconv-lite/0.4.24",
+      "name": "safer-buffer",
+      "rawSpec": ">= 2.1.2 < 3"
+    }
+  },
+  "176 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/safer-buffer/2.1.2",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "resolved"
+  },
+  "177 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/os-tmpdir/1.0.2",
+    "wanted": {
+      "dependentId": "/tmp/0.0.33",
+      "name": "os-tmpdir",
+      "rawSpec": "~1.0.2"
+    }
+  },
+  "178 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/os-tmpdir/1.0.2",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "resolved"
+  },
+  "179 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/color-name/1.1.4",
+    "wanted": {
+      "dependentId": "/color-convert/2.0.1",
+      "name": "color-name",
+      "rawSpec": "~1.1.4"
+    }
+  },
+  "180 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/color-name/1.1.4",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "resolved"
+  },
+  "181 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/defaults/1.0.3",
+    "wanted": {
+      "dependentId": "/wcwidth/1.0.1",
+      "name": "defaults",
+      "rawSpec": "^1.0.3"
+    }
+  },
+  "182 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/defaults/1.0.3",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "resolved"
+  },
+  "183 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/inherits/2.0.4",
+    "wanted": {
+      "dependentId": "/bl/4.1.0",
+      "name": "inherits",
+      "rawSpec": "^2.0.4"
+    }
+  },
+  "184 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/inherits/2.0.4",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "resolved"
+  },
+  "185 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/isexe/2.0.0",
+    "wanted": {
+      "dependentId": "/which/2.0.2",
+      "name": "isexe",
+      "rawSpec": "^2.0.0"
+    }
+  },
+  "186 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/isexe/2.0.0",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "resolved"
+  },
+  "187 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/defaults/1.0.3",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "found_in_store"
+  },
+  "188 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/safer-buffer/2.1.2",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "found_in_store"
+  },
+  "189 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/os-tmpdir/1.0.2",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "found_in_store"
+  },
+  "190 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/inherits/2.0.4",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "found_in_store"
+  },
+  "191 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/color-name/1.1.4",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "found_in_store"
+  },
+  "192 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/isexe/2.0.0",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "found_in_store"
+  },
+  "193 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/clone/1.0.4",
+    "wanted": {
+      "dependentId": "/defaults/1.0.3",
+      "name": "clone",
+      "rawSpec": "^1.0.2"
+    }
+  },
+  "194 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/clone/1.0.4",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "resolved"
+  },
+  "195 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/clone/1.0.4",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "found_in_store"
+  },
+  "196 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/buffer/5.7.1",
+    "wanted": {
+      "dependentId": "/bl/4.1.0",
+      "name": "buffer",
+      "rawSpec": "^5.5.0"
+    }
+  },
+  "197 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/buffer/5.7.1",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "resolved"
+  },
+  "198 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/buffer/5.7.1",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "found_in_store"
+  },
+  "199 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/readable-stream/3.6.0",
+    "wanted": {
+      "dependentId": "/bl/4.1.0",
+      "name": "readable-stream",
+      "rawSpec": "^3.4.0"
+    }
+  },
+  "200 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/readable-stream/3.6.0",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "resolved"
+  },
+  "201 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/inherits/2.0.4",
+    "wanted": {
+      "dependentId": "/readable-stream/3.6.0",
+      "name": "inherits",
+      "rawSpec": "^2.0.3"
+    }
+  },
+  "202 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/readable-stream/3.6.0",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "found_in_store"
+  },
+  "203 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/string_decoder/1.3.0",
+    "wanted": {
+      "dependentId": "/readable-stream/3.6.0",
+      "name": "string_decoder",
+      "rawSpec": "^1.1.1"
+    }
+  },
+  "204 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/string_decoder/1.3.0",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "resolved"
+  },
+  "205 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/ieee754/1.2.1",
+    "wanted": {
+      "dependentId": "/buffer/5.7.1",
+      "name": "ieee754",
+      "rawSpec": "^1.1.13"
+    }
+  },
+  "206 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/ieee754/1.2.1",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "resolved"
+  },
+  "207 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/util-deprecate/1.0.2",
+    "wanted": {
+      "dependentId": "/readable-stream/3.6.0",
+      "name": "util-deprecate",
+      "rawSpec": "^1.0.1"
+    }
+  },
+  "208 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/util-deprecate/1.0.2",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "resolved"
+  },
+  "209 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/base64-js/1.5.1",
+    "wanted": {
+      "dependentId": "/buffer/5.7.1",
+      "name": "base64-js",
+      "rawSpec": "^1.3.1"
+    }
+  },
+  "210 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/base64-js/1.5.1",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "resolved"
+  },
+  "211 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/string_decoder/1.3.0",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "found_in_store"
+  },
+  "212 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/ieee754/1.2.1",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "found_in_store"
+  },
+  "213 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/util-deprecate/1.0.2",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "found_in_store"
+  },
+  "214 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/base64-js/1.5.1",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "found_in_store"
+  },
+  "215 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/safe-buffer/5.2.1",
+    "wanted": {
+      "dependentId": "/string_decoder/1.3.0",
+      "name": "safe-buffer",
+      "rawSpec": "~5.2.0"
+    }
+  },
+  "216 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/safe-buffer/5.2.1",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "resolved"
+  },
+  "217 debug pnpm:package-manifest": {
+    "prefix": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "updated": {
+      "dependencies": {
+        "create-vuepress-theme-hope": "2.0.0-beta.61"
+      }
+    }
+  },
+  "218 debug pnpm:package-manifest": {
+    "prefix": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "updated": {
+      "dependencies": {
+        "create-vuepress-theme-hope": "2.0.0-beta.61"
+      }
+    }
+  },
+  "219 debug pnpm:stage": {
+    "prefix": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "stage": "resolution_done"
+  },
+  "220 debug pnpm:stats": {
+    "prefix": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "removed": 0
+  },
+  "221 debug pnpm:stage": {
+    "prefix": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "stage": "importing_started"
+  },
+  "222 debug pnpm:stats": {
+    "added": 67,
+    "prefix": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629"
+  },
+  "223 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/safe-buffer/5.2.1",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "found_in_store"
+  },
+  "224 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/cac@6.7.12/node_modules/cac",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/create-vuepress-theme-hope@2.0.0-beta.61/node_modules/cac"
+  },
+  "225 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/execa@5.1.1/node_modules/execa",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/create-vuepress-theme-hope@2.0.0-beta.61/node_modules/execa"
+  },
+  "226 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/inquirer@8.2.4/node_modules/inquirer",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/create-vuepress-theme-hope@2.0.0-beta.61/node_modules/inquirer"
+  },
+  "227 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/cross-spawn@7.0.3/node_modules/cross-spawn",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/execa@5.1.1/node_modules/cross-spawn"
+  },
+  "228 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/get-stream@6.0.1/node_modules/get-stream",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/execa@5.1.1/node_modules/get-stream"
+  },
+  "229 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/human-signals@2.1.0/node_modules/human-signals",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/execa@5.1.1/node_modules/human-signals"
+  },
+  "230 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/is-stream@2.0.1/node_modules/is-stream",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/execa@5.1.1/node_modules/is-stream"
+  },
+  "231 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/merge-stream@2.0.0/node_modules/merge-stream",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/execa@5.1.1/node_modules/merge-stream"
+  },
+  "232 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/npm-run-path@4.0.1/node_modules/npm-run-path",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/execa@5.1.1/node_modules/npm-run-path"
+  },
+  "233 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/onetime@5.1.2/node_modules/onetime",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/execa@5.1.1/node_modules/onetime"
+  },
+  "234 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/signal-exit@3.0.7/node_modules/signal-exit",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/execa@5.1.1/node_modules/signal-exit"
+  },
+  "235 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/strip-final-newline@2.0.0/node_modules/strip-final-newline",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/execa@5.1.1/node_modules/strip-final-newline"
+  },
+  "236 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/path-key@3.1.1/node_modules/path-key",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/cross-spawn@7.0.3/node_modules/path-key"
+  },
+  "237 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/shebang-command@2.0.0/node_modules/shebang-command",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/cross-spawn@7.0.3/node_modules/shebang-command"
+  },
+  "238 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/which@2.0.2/node_modules/which",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/cross-spawn@7.0.3/node_modules/which"
+  },
+  "239 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/shebang-regex@3.0.0/node_modules/shebang-regex",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/shebang-command@2.0.0/node_modules/shebang-regex"
+  },
+  "240 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/isexe@2.0.0/node_modules/isexe",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/which@2.0.2/node_modules/isexe"
+  },
+  "241 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/path-key@3.1.1/node_modules/path-key",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/npm-run-path@4.0.1/node_modules/path-key"
+  },
+  "242 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/mimic-fn@2.1.0/node_modules/mimic-fn",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/onetime@5.1.2/node_modules/mimic-fn"
+  },
+  "243 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/ansi-escapes@4.3.2/node_modules/ansi-escapes",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/inquirer@8.2.4/node_modules/ansi-escapes"
+  },
+  "244 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/chalk@4.1.2/node_modules/chalk",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/inquirer@8.2.4/node_modules/chalk"
+  },
+  "245 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/cli-cursor@3.1.0/node_modules/cli-cursor",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/inquirer@8.2.4/node_modules/cli-cursor"
+  },
+  "246 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/cli-width@3.0.0/node_modules/cli-width",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/inquirer@8.2.4/node_modules/cli-width"
+  },
+  "247 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/external-editor@3.1.0/node_modules/external-editor",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/inquirer@8.2.4/node_modules/external-editor"
+  },
+  "248 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/figures@3.2.0/node_modules/figures",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/inquirer@8.2.4/node_modules/figures"
+  },
+  "249 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/lodash@4.17.21/node_modules/lodash",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/inquirer@8.2.4/node_modules/lodash"
+  },
+  "250 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/mute-stream@0.0.8/node_modules/mute-stream",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/inquirer@8.2.4/node_modules/mute-stream"
+  },
+  "251 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/ora@5.4.1/node_modules/ora",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/inquirer@8.2.4/node_modules/ora"
+  },
+  "252 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/run-async@2.4.1/node_modules/run-async",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/inquirer@8.2.4/node_modules/run-async"
+  },
+  "253 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/rxjs@7.5.5/node_modules/rxjs",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/inquirer@8.2.4/node_modules/rxjs"
+  },
+  "254 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/string-width@4.2.3/node_modules/string-width",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/inquirer@8.2.4/node_modules/string-width"
+  },
+  "255 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/strip-ansi@6.0.1/node_modules/strip-ansi",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/inquirer@8.2.4/node_modules/strip-ansi"
+  },
+  "256 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/through@2.3.8/node_modules/through",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/inquirer@8.2.4/node_modules/through"
+  },
+  "257 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/wrap-ansi@7.0.0/node_modules/wrap-ansi",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/inquirer@8.2.4/node_modules/wrap-ansi"
+  },
+  "258 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/type-fest@0.21.3/node_modules/type-fest",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/ansi-escapes@4.3.2/node_modules/type-fest"
+  },
+  "259 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/ansi-styles@4.3.0/node_modules/ansi-styles",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/chalk@4.1.2/node_modules/ansi-styles"
+  },
+  "260 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/supports-color@7.2.0/node_modules/supports-color",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/chalk@4.1.2/node_modules/supports-color"
+  },
+  "261 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/color-convert@2.0.1/node_modules/color-convert",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/ansi-styles@4.3.0/node_modules/color-convert"
+  },
+  "262 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/color-name@1.1.4/node_modules/color-name",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/color-convert@2.0.1/node_modules/color-name"
+  },
+  "263 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/has-flag@4.0.0/node_modules/has-flag",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/supports-color@7.2.0/node_modules/has-flag"
+  },
+  "264 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/restore-cursor@3.1.0/node_modules/restore-cursor",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/cli-cursor@3.1.0/node_modules/restore-cursor"
+  },
+  "265 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/onetime@5.1.2/node_modules/onetime",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/restore-cursor@3.1.0/node_modules/onetime"
+  },
+  "266 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/signal-exit@3.0.7/node_modules/signal-exit",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/restore-cursor@3.1.0/node_modules/signal-exit"
+  },
+  "267 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/chardet@0.7.0/node_modules/chardet",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/external-editor@3.1.0/node_modules/chardet"
+  },
+  "268 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/iconv-lite@0.4.24/node_modules/iconv-lite",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/external-editor@3.1.0/node_modules/iconv-lite"
+  },
+  "269 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/tmp@0.0.33/node_modules/tmp",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/external-editor@3.1.0/node_modules/tmp"
+  },
+  "270 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/safer-buffer@2.1.2/node_modules/safer-buffer",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/iconv-lite@0.4.24/node_modules/safer-buffer"
+  },
+  "271 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/os-tmpdir@1.0.2/node_modules/os-tmpdir",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/tmp@0.0.33/node_modules/os-tmpdir"
+  },
+  "272 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/escape-string-regexp@1.0.5/node_modules/escape-string-regexp",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/figures@3.2.0/node_modules/escape-string-regexp"
+  },
+  "273 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/bl@4.1.0/node_modules/bl",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/ora@5.4.1/node_modules/bl"
+  },
+  "274 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/chalk@4.1.2/node_modules/chalk",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/ora@5.4.1/node_modules/chalk"
+  },
+  "275 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/cli-cursor@3.1.0/node_modules/cli-cursor",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/ora@5.4.1/node_modules/cli-cursor"
+  },
+  "276 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/cli-spinners@2.6.1/node_modules/cli-spinners",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/ora@5.4.1/node_modules/cli-spinners"
+  },
+  "277 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/is-interactive@1.0.0/node_modules/is-interactive",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/ora@5.4.1/node_modules/is-interactive"
+  },
+  "278 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/is-unicode-supported@0.1.0/node_modules/is-unicode-supported",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/ora@5.4.1/node_modules/is-unicode-supported"
+  },
+  "279 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/log-symbols@4.1.0/node_modules/log-symbols",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/ora@5.4.1/node_modules/log-symbols"
+  },
+  "280 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/strip-ansi@6.0.1/node_modules/strip-ansi",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/ora@5.4.1/node_modules/strip-ansi"
+  },
+  "281 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/wcwidth@1.0.1/node_modules/wcwidth",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/ora@5.4.1/node_modules/wcwidth"
+  },
+  "282 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/buffer@5.7.1/node_modules/buffer",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/bl@4.1.0/node_modules/buffer"
+  },
+  "283 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/inherits@2.0.4/node_modules/inherits",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/bl@4.1.0/node_modules/inherits"
+  },
+  "284 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/readable-stream@3.6.0/node_modules/readable-stream",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/bl@4.1.0/node_modules/readable-stream"
+  },
+  "285 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/base64-js@1.5.1/node_modules/base64-js",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/buffer@5.7.1/node_modules/base64-js"
+  },
+  "286 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/ieee754@1.2.1/node_modules/ieee754",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/buffer@5.7.1/node_modules/ieee754"
+  },
+  "287 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/inherits@2.0.4/node_modules/inherits",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/readable-stream@3.6.0/node_modules/inherits"
+  },
+  "288 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/string_decoder@1.3.0/node_modules/string_decoder",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/readable-stream@3.6.0/node_modules/string_decoder"
+  },
+  "289 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/util-deprecate@1.0.2/node_modules/util-deprecate",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/readable-stream@3.6.0/node_modules/util-deprecate"
+  },
+  "290 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/safe-buffer@5.2.1/node_modules/safe-buffer",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/string_decoder@1.3.0/node_modules/safe-buffer"
+  },
+  "291 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/chalk@4.1.2/node_modules/chalk",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/log-symbols@4.1.0/node_modules/chalk"
+  },
+  "292 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/is-unicode-supported@0.1.0/node_modules/is-unicode-supported",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/log-symbols@4.1.0/node_modules/is-unicode-supported"
+  },
+  "293 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/defaults@1.0.3/node_modules/defaults",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/wcwidth@1.0.1/node_modules/defaults"
+  },
+  "294 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/clone@1.0.4/node_modules/clone",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/defaults@1.0.3/node_modules/clone"
+  },
+  "295 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/tslib@2.4.0/node_modules/tslib",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/rxjs@7.5.5/node_modules/tslib"
+  },
+  "296 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/emoji-regex@8.0.0/node_modules/emoji-regex",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/string-width@4.2.3/node_modules/emoji-regex"
+  },
+  "297 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/is-fullwidth-code-point@3.0.0/node_modules/is-fullwidth-code-point",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/string-width@4.2.3/node_modules/is-fullwidth-code-point"
+  },
+  "298 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/strip-ansi@6.0.1/node_modules/strip-ansi",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/string-width@4.2.3/node_modules/strip-ansi"
+  },
+  "299 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/ansi-regex@5.0.1/node_modules/ansi-regex",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/strip-ansi@6.0.1/node_modules/ansi-regex"
+  },
+  "300 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/ansi-styles@4.3.0/node_modules/ansi-styles",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/wrap-ansi@7.0.0/node_modules/ansi-styles"
+  },
+  "301 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/string-width@4.2.3/node_modules/string-width",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/wrap-ansi@7.0.0/node_modules/string-width"
+  },
+  "302 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/strip-ansi@6.0.1/node_modules/strip-ansi",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/wrap-ansi@7.0.0/node_modules/strip-ansi"
+  },
+  "303 debug pnpm:package-import-method": {
+    "method": "hardlink"
+  },
+  "304 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "imported",
+    "to": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/path-key@3.1.1/node_modules/path-key"
+  },
+  "305 debug pnpm:package-import-method": {
+    "method": "hardlink"
+  },
+  "306 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "imported",
+    "to": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/shebang-regex@3.0.0/node_modules/shebang-regex"
+  },
+  "307 debug pnpm:package-import-method": {
+    "method": "hardlink"
+  },
+  "308 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "imported",
+    "to": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/merge-stream@2.0.0/node_modules/merge-stream"
+  },
+  "309 debug pnpm:package-import-method": {
+    "method": "hardlink"
+  },
+  "310 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "imported",
+    "to": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/shebang-command@2.0.0/node_modules/shebang-command"
+  },
+  "311 debug pnpm:package-import-method": {
+    "method": "hardlink"
+  },
+  "312 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "imported",
+    "to": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/get-stream@6.0.1/node_modules/get-stream"
+  },
+  "313 debug pnpm:package-import-method": {
+    "method": "hardlink"
+  },
+  "314 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "imported",
+    "to": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/is-stream@2.0.1/node_modules/is-stream"
+  },
+  "315 debug pnpm:package-import-method": {
+    "method": "hardlink"
+  },
+  "316 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "imported",
+    "to": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/onetime@5.1.2/node_modules/onetime"
+  },
+  "317 debug pnpm:package-import-method": {
+    "method": "hardlink"
+  },
+  "318 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "imported",
+    "to": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/mimic-fn@2.1.0/node_modules/mimic-fn"
+  },
+  "319 debug pnpm:package-import-method": {
+    "method": "hardlink"
+  },
+  "320 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "imported",
+    "to": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/npm-run-path@4.0.1/node_modules/npm-run-path"
+  },
+  "321 debug pnpm:package-import-method": {
+    "method": "hardlink"
+  },
+  "322 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "imported",
+    "to": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/cac@6.7.12/node_modules/cac"
+  },
+  "323 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "imported",
+    "to": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/signal-exit@3.0.7/node_modules/signal-exit"
+  },
+  "324 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "imported",
+    "to": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/strip-final-newline@2.0.0/node_modules/strip-final-newline"
+  },
+  "325 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "imported",
+    "to": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/ansi-escapes@4.3.2/node_modules/ansi-escapes"
+  },
+  "326 debug pnpm:package-import-method": {
+    "method": "hardlink"
+  },
+  "327 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "imported",
+    "to": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/execa@5.1.1/node_modules/execa"
+  },
+  "328 debug pnpm:package-import-method": {
+    "method": "hardlink"
+  },
+  "329 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "imported",
+    "to": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/isexe@2.0.0/node_modules/isexe"
+  },
+  "330 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "imported",
+    "to": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/ansi-styles@4.3.0/node_modules/ansi-styles"
+  },
+  "331 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "imported",
+    "to": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/color-name@1.1.4/node_modules/color-name"
+  },
+  "332 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "imported",
+    "to": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/color-convert@2.0.1/node_modules/color-convert"
+  },
+  "333 debug pnpm:package-import-method": {
+    "method": "hardlink"
+  },
+  "334 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "imported",
+    "to": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/which@2.0.2/node_modules/which"
+  },
+  "335 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "imported",
+    "to": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/inquirer@8.2.4/node_modules/inquirer"
+  },
+  "336 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "imported",
+    "to": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/type-fest@0.21.3/node_modules/type-fest"
+  },
+  "337 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "imported",
+    "to": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/chalk@4.1.2/node_modules/chalk"
+  },
+  "338 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "imported",
+    "to": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/has-flag@4.0.0/node_modules/has-flag"
+  },
+  "339 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "imported",
+    "to": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/cli-cursor@3.1.0/node_modules/cli-cursor"
+  },
+  "340 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "imported",
+    "to": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/supports-color@7.2.0/node_modules/supports-color"
+  },
+  "341 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "imported",
+    "to": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/restore-cursor@3.1.0/node_modules/restore-cursor"
+  },
+  "342 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "imported",
+    "to": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/safer-buffer@2.1.2/node_modules/safer-buffer"
+  },
+  "343 debug pnpm:package-import-method": {
+    "method": "hardlink"
+  },
+  "344 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "imported",
+    "to": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/cross-spawn@7.0.3/node_modules/cross-spawn"
+  },
+  "345 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "imported",
+    "to": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/chardet@0.7.0/node_modules/chardet"
+  },
+  "346 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "imported",
+    "to": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/os-tmpdir@1.0.2/node_modules/os-tmpdir"
+  },
+  "347 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "imported",
+    "to": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/figures@3.2.0/node_modules/figures"
+  },
+  "348 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "imported",
+    "to": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/escape-string-regexp@1.0.5/node_modules/escape-string-regexp"
+  },
+  "349 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "imported",
+    "to": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/tmp@0.0.33/node_modules/tmp"
+  },
+  "350 debug pnpm:package-import-method": {
+    "method": "hardlink"
+  },
+  "351 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "imported",
+    "to": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/human-signals@2.1.0/node_modules/human-signals"
+  },
+  "352 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "imported",
+    "to": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/cli-width@3.0.0/node_modules/cli-width"
+  },
+  "353 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "imported",
+    "to": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/external-editor@3.1.0/node_modules/external-editor"
+  },
+  "354 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "imported",
+    "to": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/iconv-lite@0.4.24/node_modules/iconv-lite"
+  },
+  "355 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "imported",
+    "to": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/mute-stream@0.0.8/node_modules/mute-stream"
+  },
+  "356 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "imported",
+    "to": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/ora@5.4.1/node_modules/ora"
+  },
+  "357 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "imported",
+    "to": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/lodash@4.17.21/node_modules/lodash"
+  },
+  "358 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "imported",
+    "to": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/buffer@5.7.1/node_modules/buffer"
+  },
+  "359 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "imported",
+    "to": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/bl@4.1.0/node_modules/bl"
+  },
+  "360 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "imported",
+    "to": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/base64-js@1.5.1/node_modules/base64-js"
+  },
+  "361 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "imported",
+    "to": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/ieee754@1.2.1/node_modules/ieee754"
+  },
+  "362 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "imported",
+    "to": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/inherits@2.0.4/node_modules/inherits"
+  },
+  "363 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "imported",
+    "to": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/safe-buffer@5.2.1/node_modules/safe-buffer"
+  },
+  "364 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "imported",
+    "to": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/util-deprecate@1.0.2/node_modules/util-deprecate"
+  },
+  "365 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "imported",
+    "to": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/string_decoder@1.3.0/node_modules/string_decoder"
+  },
+  "366 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "imported",
+    "to": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/cli-spinners@2.6.1/node_modules/cli-spinners"
+  },
+  "367 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "imported",
+    "to": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/readable-stream@3.6.0/node_modules/readable-stream"
+  },
+  "368 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "imported",
+    "to": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/is-interactive@1.0.0/node_modules/is-interactive"
+  },
+  "369 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "imported",
+    "to": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/is-unicode-supported@0.1.0/node_modules/is-unicode-supported"
+  },
+  "370 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "imported",
+    "to": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/log-symbols@4.1.0/node_modules/log-symbols"
+  },
+  "371 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "imported",
+    "to": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/defaults@1.0.3/node_modules/defaults"
+  },
+  "372 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "imported",
+    "to": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/wcwidth@1.0.1/node_modules/wcwidth"
+  },
+  "373 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "imported",
+    "to": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/clone@1.0.4/node_modules/clone"
+  },
+  "374 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "imported",
+    "to": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/run-async@2.4.1/node_modules/run-async"
+  },
+  "375 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "imported",
+    "to": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/string-width@4.2.3/node_modules/string-width"
+  },
+  "376 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "imported",
+    "to": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/tslib@2.4.0/node_modules/tslib"
+  },
+  "377 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "imported",
+    "to": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/is-fullwidth-code-point@3.0.0/node_modules/is-fullwidth-code-point"
+  },
+  "378 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "imported",
+    "to": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/strip-ansi@6.0.1/node_modules/strip-ansi"
+  },
+  "379 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "imported",
+    "to": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/emoji-regex@8.0.0/node_modules/emoji-regex"
+  },
+  "380 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "imported",
+    "to": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/ansi-regex@5.0.1/node_modules/ansi-regex"
+  },
+  "381 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "imported",
+    "to": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/wrap-ansi@7.0.0/node_modules/wrap-ansi"
+  },
+  "382 debug pnpm:package-import-method": {
+    "method": "hardlink"
+  },
+  "383 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "imported",
+    "to": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/create-vuepress-theme-hope@2.0.0-beta.61/node_modules/create-vuepress-theme-hope"
+  },
+  "384 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "imported",
+    "to": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/rxjs@7.5.5/node_modules/rxjs"
+  },
+  "385 debug pnpm:progress": {
+    "method": "hardlink",
+    "requester": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "status": "imported",
+    "to": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/through@2.3.8/node_modules/through"
+  },
+  "386 debug pnpm:stage": {
+    "prefix": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629",
+    "stage": "importing_done"
+  },
+  "387 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/create-vuepress-theme-hope@2.0.0-beta.61/node_modules/create-vuepress-theme-hope",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/create-vuepress-theme-hope"
+  },
+  "388 debug pnpm:root": {
+    "added": {
+      "dependencyType": "prod",
+      "id": "registry.npmjs.org/create-vuepress-theme-hope/2.0.0-beta.61",
+      "latest": "1.29.0",
+      "name": "create-vuepress-theme-hope",
+      "realName": "create-vuepress-theme-hope",
+      "version": "2.0.0-beta.61"
+    },
+    "prefix": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629"
+  },
+  "389 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/cac@6.7.12/node_modules/cac",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/node_modules/cac"
+  },
+  "390 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/execa@5.1.1/node_modules/execa",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/node_modules/execa"
+  },
+  "391 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/inquirer@8.2.4/node_modules/inquirer",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/node_modules/inquirer"
+  },
+  "392 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/cross-spawn@7.0.3/node_modules/cross-spawn",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/node_modules/cross-spawn"
+  },
+  "393 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/get-stream@6.0.1/node_modules/get-stream",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/node_modules/get-stream"
+  },
+  "394 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/human-signals@2.1.0/node_modules/human-signals",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/node_modules/human-signals"
+  },
+  "395 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/is-stream@2.0.1/node_modules/is-stream",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/node_modules/is-stream"
+  },
+  "396 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/merge-stream@2.0.0/node_modules/merge-stream",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/node_modules/merge-stream"
+  },
+  "397 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/npm-run-path@4.0.1/node_modules/npm-run-path",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/node_modules/npm-run-path"
+  },
+  "398 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/onetime@5.1.2/node_modules/onetime",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/node_modules/onetime"
+  },
+  "399 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/signal-exit@3.0.7/node_modules/signal-exit",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/node_modules/signal-exit"
+  },
+  "400 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/strip-final-newline@2.0.0/node_modules/strip-final-newline",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/node_modules/strip-final-newline"
+  },
+  "401 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/ansi-escapes@4.3.2/node_modules/ansi-escapes",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/node_modules/ansi-escapes"
+  },
+  "402 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/chalk@4.1.2/node_modules/chalk",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/node_modules/chalk"
+  },
+  "403 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/cli-cursor@3.1.0/node_modules/cli-cursor",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/node_modules/cli-cursor"
+  },
+  "404 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/cli-width@3.0.0/node_modules/cli-width",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/node_modules/cli-width"
+  },
+  "405 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/external-editor@3.1.0/node_modules/external-editor",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/node_modules/external-editor"
+  },
+  "406 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/figures@3.2.0/node_modules/figures",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/node_modules/figures"
+  },
+  "407 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/lodash@4.17.21/node_modules/lodash",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/node_modules/lodash"
+  },
+  "408 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/mute-stream@0.0.8/node_modules/mute-stream",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/node_modules/mute-stream"
+  },
+  "409 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/ora@5.4.1/node_modules/ora",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/node_modules/ora"
+  },
+  "410 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/run-async@2.4.1/node_modules/run-async",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/node_modules/run-async"
+  },
+  "411 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/rxjs@7.5.5/node_modules/rxjs",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/node_modules/rxjs"
+  },
+  "412 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/string-width@4.2.3/node_modules/string-width",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/node_modules/string-width"
+  },
+  "413 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/strip-ansi@6.0.1/node_modules/strip-ansi",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/node_modules/strip-ansi"
+  },
+  "414 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/through@2.3.8/node_modules/through",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/node_modules/through"
+  },
+  "415 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/wrap-ansi@7.0.0/node_modules/wrap-ansi",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/node_modules/wrap-ansi"
+  },
+  "416 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/type-fest@0.21.3/node_modules/type-fest",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/node_modules/type-fest"
+  },
+  "417 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/ansi-styles@4.3.0/node_modules/ansi-styles",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/node_modules/ansi-styles"
+  },
+  "418 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/supports-color@7.2.0/node_modules/supports-color",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/node_modules/supports-color"
+  },
+  "419 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/restore-cursor@3.1.0/node_modules/restore-cursor",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/node_modules/restore-cursor"
+  },
+  "420 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/path-key@3.1.1/node_modules/path-key",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/node_modules/path-key"
+  },
+  "421 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/shebang-command@2.0.0/node_modules/shebang-command",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/node_modules/shebang-command"
+  },
+  "422 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/which@2.0.2/node_modules/which",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/node_modules/which"
+  },
+  "423 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/chardet@0.7.0/node_modules/chardet",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/node_modules/chardet"
+  },
+  "424 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/iconv-lite@0.4.24/node_modules/iconv-lite",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/node_modules/iconv-lite"
+  },
+  "425 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/tmp@0.0.33/node_modules/tmp",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/node_modules/tmp"
+  },
+  "426 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/escape-string-regexp@1.0.5/node_modules/escape-string-regexp",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/node_modules/escape-string-regexp"
+  },
+  "427 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/mimic-fn@2.1.0/node_modules/mimic-fn",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/node_modules/mimic-fn"
+  },
+  "428 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/bl@4.1.0/node_modules/bl",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/node_modules/bl"
+  },
+  "429 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/cli-spinners@2.6.1/node_modules/cli-spinners",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/node_modules/cli-spinners"
+  },
+  "430 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/is-interactive@1.0.0/node_modules/is-interactive",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/node_modules/is-interactive"
+  },
+  "431 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/is-unicode-supported@0.1.0/node_modules/is-unicode-supported",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/node_modules/is-unicode-supported"
+  },
+  "432 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/log-symbols@4.1.0/node_modules/log-symbols",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/node_modules/log-symbols"
+  },
+  "433 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/wcwidth@1.0.1/node_modules/wcwidth",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/node_modules/wcwidth"
+  },
+  "434 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/tslib@2.4.0/node_modules/tslib",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/node_modules/tslib"
+  },
+  "435 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/emoji-regex@8.0.0/node_modules/emoji-regex",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/node_modules/emoji-regex"
+  },
+  "436 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/is-fullwidth-code-point@3.0.0/node_modules/is-fullwidth-code-point",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/node_modules/is-fullwidth-code-point"
+  },
+  "437 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/ansi-regex@5.0.1/node_modules/ansi-regex",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/node_modules/ansi-regex"
+  },
+  "438 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/color-convert@2.0.1/node_modules/color-convert",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/node_modules/color-convert"
+  },
+  "439 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/buffer@5.7.1/node_modules/buffer",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/node_modules/buffer"
+  },
+  "440 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/inherits@2.0.4/node_modules/inherits",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/node_modules/inherits"
+  },
+  "441 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/readable-stream@3.6.0/node_modules/readable-stream",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/node_modules/readable-stream"
+  },
+  "442 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/safer-buffer@2.1.2/node_modules/safer-buffer",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/node_modules/safer-buffer"
+  },
+  "443 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/shebang-regex@3.0.0/node_modules/shebang-regex",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/node_modules/shebang-regex"
+  },
+  "444 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/has-flag@4.0.0/node_modules/has-flag",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/node_modules/has-flag"
+  },
+  "445 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/os-tmpdir@1.0.2/node_modules/os-tmpdir",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/node_modules/os-tmpdir"
+  },
+  "446 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/defaults@1.0.3/node_modules/defaults",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/node_modules/defaults"
+  },
+  "447 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/isexe@2.0.0/node_modules/isexe",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/node_modules/isexe"
+  },
+  "448 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/base64-js@1.5.1/node_modules/base64-js",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/node_modules/base64-js"
+  },
+  "449 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/ieee754@1.2.1/node_modules/ieee754",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/node_modules/ieee754"
+  },
+  "450 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/color-name@1.1.4/node_modules/color-name",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/node_modules/color-name"
+  },
+  "451 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/clone@1.0.4/node_modules/clone",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/node_modules/clone"
+  },
+  "452 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/string_decoder@1.3.0/node_modules/string_decoder",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/node_modules/string_decoder"
+  },
+  "453 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/util-deprecate@1.0.2/node_modules/util-deprecate",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/node_modules/util-deprecate"
+  },
+  "454 debug pnpm:link": {
+    "target": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/safe-buffer@5.2.1/node_modules/safe-buffer",
+    "link": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.pnpm/node_modules/safe-buffer"
+  },
+  "455 debug pnpm:summary": {
+    "prefix": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629"
+  },
+  "456 error pnpm": {
+    "shortMessage": "Command failed with exit code 1: /Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.bin/create-vuepress-theme-hope docs",
+    "command": "/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.bin/create-vuepress-theme-hope docs",
+    "escapedCommand": "\"/Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.bin/create-vuepress-theme-hope\" docs",
+    "exitCode": 1,
+    "failed": true,
+    "timedOut": false,
+    "isCanceled": false,
+    "killed": false,
+    "err": {
+      "name": "pnpm",
+      "message": "Command failed with exit code 1: /Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.bin/create-vuepress-theme-hope docs",
+      "stack": "pnpm: Command failed with exit code 1: /Users/brucezhao/Library/pnpm/store/v3/tmp/dlx-45629/node_modules/.bin/create-vuepress-theme-hope docs\n    at makeError (/snapshot/dist/pnpm.cjs)\n    at handlePromise (/snapshot/dist/pnpm.cjs)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n    at async Object.handler (/snapshot/dist/pnpm.cjs)\n    at async /snapshot/dist/pnpm.cjs\n    at async run (/snapshot/dist/pnpm.cjs)\n    at async runPnpm (/snapshot/dist/pnpm.cjs)\n    at async /snapshot/dist/pnpm.cjs"
+    }
+  }
+}
