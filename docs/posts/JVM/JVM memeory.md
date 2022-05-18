@@ -7,6 +7,7 @@ category:
 tag:
   - tag A
   - tag B
+sidebar: heading
 ---
 
 # JVM memory

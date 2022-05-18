@@ -3,6 +3,10 @@ import * as navbar from "./navbar";
 import * as sidebar from "./sidebar";
 
 export default hopeTheme({
+  // home page background picture
+  // /Users/brucezhao/Acodes/Amy/zzaoen.github.io/node_modules/vuepress-theme-hope/lib/client/module/blog/assets/hero.jpg
+  
+
   hostname: "https://zzaoen.github.io",
 
   // article list information the author name
@@ -38,6 +42,16 @@ export default hopeTheme({
       // Zhihu: "https://example.com",
     },
   },
+
+  // darkmode: "enable",
+
+  // themeColor: {
+  //   blue: "#2196f3",
+  //   red: "#f26d6d",
+  //   green: "#3eaf7c",
+  //   orange: "#fb9b5f",
+  // },
+  // pure: true,
 
   locales: {
     "/": {

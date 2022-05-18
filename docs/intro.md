@@ -1,6 +1,8 @@
 ---
 icon: info
 sidebar: false
+lastUpdated: false
+comment: false
 ---
 
 # Intro Page

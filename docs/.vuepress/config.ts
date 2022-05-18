@@ -27,12 +27,11 @@ export default defineUserConfig({
       description: "好记性不如烂笔头",
     },
   },
-
-  theme,
-
   plugins: [
     searchPlugin({
       // your options
     }),
   ],
+
+  theme,
 });
